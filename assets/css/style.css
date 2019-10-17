@@ -20,4 +20,6 @@ html {
 .tng_heading {
     font-family: 'Star Next';
     color: #0099f6;
+    text-align: center;
+    margin-top: 2%;
 }
