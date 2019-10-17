@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Star Next';
+    src: url('./starnext.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    background: url(../imgs/backgroundimg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tng_heading {
+    font-family: 'Star Next';
+    color: #0099f6;
+}
