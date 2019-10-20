@@ -16,6 +16,10 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+.container {
+    padding: 0;
+    margin: 0;
+}
 
 .tng_heading {
     font-family: 'Star Next';
