@@ -27,3 +27,33 @@ html {
     text-align: center;
     margin-top: 2%;
 }
+
+#tng_warning {
+    font-family: 'Star Next';
+    color: orange;
+    text-align: center;
+    margin-top: 2%;
+    display: none;
+}
+
+#tng_danger {
+    font-family: 'Star Next';
+    color: red;
+    text-align: center;
+    margin-top: 2%;
+    display: none ;
+}
+
+.tng {
+    font-family: 'Star Next';
+    color: purple;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#loser {
+    font-family: 'Star Next';
+    color: green;
+    text-align: center;
+    margin-top: 2%;
+}
