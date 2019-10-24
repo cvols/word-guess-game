@@ -9,15 +9,40 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="tng_heading">To Boldly Guess a Word That No Man Has Guessed Before!</h1>
-        <h2 class="tng_heading">Start Guessing!</h2>
-        <h1 id="loser">YOU LOSE!!!!!!</h1>
+        <h1 class="tng_th">To Boldly Guess a Word That No Man Has Guessed Before!</h1>
+        <h2 class="tng_th">Start Guessing with your keyboard!</h2>
+
         <h3 id="tng_warning">WARNING:</h3>
         <h3 id="tng_danger">You must guess a letter. The key you typed is not a letter. Please try again</h3>
+       
+        <div class="tbl_container">
+        <table>
+            <tr>
+                <th class="tng_th">LOSES</th>
+                <th class="tng_th">WINS</th>
+                <th class="tng_th">GUESSES LEFT</th>
+            </tr>
+
+            <tr>
+                <td id="losses" class="tng"></td>
+                <td id="wins" class="tng"></td>
+                <td id="guesses_left" class="tng"></td>
+            </tr>
+        </table>
+        </div>
+
         <h3 class="tng" id="guess_word"></h3>
-        <h5 class="tng" id="letters_guessed_wrong"></h5>
+        <h3 class="tng_th">Wrong Guesses</h3>
+        <h3 class="tng" id="letters_guessed_wrong"></h3>
+        <div id="play_again">
+            <h3 class="tng_th">You win!!</h3>
+            <button class="tng_button" onclick="reset_game()">Play Again?</button>
+        </div>
+        
     
-    
+        <audio class="my_audio" controls preload="none" id="song">
+                <source src="./assets/imgs/song.mp3" type="audio/mpeg">
+        </audio>
     
     </div>
     

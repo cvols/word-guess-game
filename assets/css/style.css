@@ -46,14 +46,71 @@ html {
 
 .tng {
     font-family: 'Star Next';
-    color: purple;
+    color: goldenrod;
     text-align: center;
     margin-top: 2%;
+    font-size: 1.17em;
 }
+
+.tng_th {
+    font-family: 'Star Next';
+    color: white;
+    text-shadow: 2px 2px 8px #0099f6;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
 
 #loser {
     font-family: 'Star Next';
     color: green;
     text-align: center;
     margin-top: 2%;
+    display: none;
+}
+
+.tbl_container {
+    background: url(../imgs/tblbg.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 450px;
+    box-shadow: 0px 15px 15px 0px #0099f6;
+    border-radius: 50%;
+    margin-left: 2%;
+    float: left;
+}
+
+th {
+    padding: 3%;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 1.17em;
+}
+
+#guess_word {
+    letter-spacing: 1.5em;
+}
+
+#play_again {
+    display: none;
+    text-align: center;
+}
+.tng_button {
+    background: #0099f6;
+    font-family: 'Star Next';
+    font-weight: bold;
+    color: white;
+    border-radius: 25%;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2em;
+}
+
+.my_audio {
+    display: none;
 }
